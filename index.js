@@ -26,4 +26,4 @@ app.get('/:room', (req, res) => {
     })
     })
   })
-server.listen(3030);
+server.listen(process.env.PORT||3030);
